@@ -1,0 +1,10 @@
+2021-10-23T19:48:18+00:00 CRITICAL Uncaught Error: Class 'BackupGuard\Helper' not found in /home/commjyxu/imran.networkize.net/wp-content/plugins/backup/com/lib/SGStatsRequests.php:14
+Stack trace:
+#0 /home/commjyxu/imran.networkize.net/wp-content/plugins/backup/BackupGuard.php(890): SGStatsRequests::initialSync()
+#1 /home/commjyxu/imran.networkize.net/wp-includes/class-wp-hook.php(303): sgBackupAdminInit('')
+#2 /home/commjyxu/imran.networkize.net/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters(false, Array)
+#3 /home/commjyxu/imran.networkize.net/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#4 /home/commjyxu/imran.networkize.net/wp-admin/admin-ajax.php(45): do_action('admin_init')
+#5 {main}
+  thrown in /home/commjyxu/imran.networkize.net/wp-content/plugins/backup/com/lib/SGStatsRequests.php on line 14
+
